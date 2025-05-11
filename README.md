@@ -48,11 +48,11 @@ This project demonstrates how Python-based data engineering can seamlessly integ
 
 ## 📌 Tools & Technologies
 
-- 🐍 Python
-  - 🐼 Pandas
-  - 🔢 NumPy
-  - 📊 Matplotlib
-  - 🌊 Seaborn
+- Python
+  - Pandas
+  - NumPy
+  - Matplotlib
+  - Seaborn
 - 📊 Power BI
 - 📑 Microsoft Excel
 - 📓 Jupyter Notebook
