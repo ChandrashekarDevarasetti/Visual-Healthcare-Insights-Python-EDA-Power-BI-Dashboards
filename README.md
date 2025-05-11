@@ -93,7 +93,7 @@ This project demonstrates how Python-based data engineering can seamlessly integ
 ## 📌 Installation & Setup (One Block for Python + Power BI)
 
 ### 1️⃣ Clone the repository
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/ChandrashekarDevarasetti/Visual-Healthcare-Insights-Python-EDA-Power-BI-Dashboards)
+git clone [https://github.com/ChandrashekarDevarasetti/Visual-Healthcare-Insights-Python-EDA-Power-BI-Dashboards.git](https://github.com/ChandrashekarDevarasetti/Visual-Healthcare-Insights-Python-EDA-Power-BI-Dashboards)
 cd your-repo-name
 
 ### 2️⃣ Install required Python packages
