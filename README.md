@@ -285,6 +285,8 @@ This dashboard provides a quick summary of hospital admissions, patient volumes,
 **🎯 Result:**
 Quickly monitor hospital activity, identify admission trends, and understand patient distribution by type and demographics at a glance.
 
+![Overview_Dashboard](Images/Overview_Dashboard.png)
+
 #### 10.2 🏥 Medical Condition & Outcome Analysis <a name="102-medical-condition--outcome-analysis"></a>
 
 **What it does:**
@@ -300,6 +302,8 @@ This dashboard highlights patient counts by medical condition and their correspo
 
 **🎯 Result:**
 Quickly identify which conditions are most common, how patients are performing in tests, and filter detailed patient lists for deeper analysis.
+
+![Medical_Condition](Images/Medical_Conditions_Dashboard.png)
 
 #### 10.3 💵 Billing & Insurance Analysis <a name="103-billing--insurance-analysis"></a>
 
@@ -317,6 +321,8 @@ This dashboard tracks hospital billing patterns, insurance provider contribution
 **🎯 Result:**
 Easily monitor financial performance, identify top-paying insurers, and spot patterns between costs, patient stays, and conditions.
 
+![Billing_Insurance](Images/Billing_Insurance_Dashboard.png)
+
 #### 10.4 🧑‍⚕️ Doctor & Hospital Performance <a name="104-doctor--hospital-performance"></a>
 
 **What it does:**
@@ -332,6 +338,8 @@ This dashboard evaluates doctor workload, patient outcomes, and hospital-wise ad
 
 **🎯 Result:**
 Identify high-performing doctors, hospital patient loads, and how test results vary by doctor and admission type.
+
+![Doctor_Hospital](Images/Doctor_Hospital_Dashboard.png)
 
 #### 10.5 📅 Time-Based Analysis <a name="105-time-based-analysis"></a>
 
@@ -351,3 +359,10 @@ This dashboard tracks patient admissions over time, helping spot trends and seas
 **🎯 Result:**
 Understand how admissions fluctuate over time, identify peak periods, and drill down to patient records on specific dates for deeper analysis.
 
+![Time_Based_Yearly](Images/Time_Based_Dashboard_Yearly.png)
+
+![Time_Based_Monthly](Images/Time_Based_Dashboard_Monthly.png)
+
+![Time_Based_Daily](Images/Time_Based_Dashboard_Daily.png)
+
+![Patient_Details_Drillthorugh](Images/Patient_Details_Drilltrough.png)
