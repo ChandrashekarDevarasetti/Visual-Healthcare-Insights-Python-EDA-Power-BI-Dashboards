@@ -48,16 +48,25 @@ This project demonstrates how Python-based data engineering can seamlessly integ
 
 ## 🛠️ Tools & Technologies  
 
-- ![Python Logo](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo.png) **Python**  
-- ![Power BI Logo](https://upload.wikimedia.org/wikipedia/commons/4/44/Power_BI_Logo.png) **Power BI**  
-- ![Pandas Logo](https://upload.wikimedia.org/wikipedia/commons/2/22/Pandas_mark.svg) **Pandas**  
-- ![NumPy Logo](https://upload.wikimedia.org/wikipedia/commons/2/2e/NumPy_logo_2020.svg) **NumPy**  
-- ![Matplotlib Logo](https://upload.wikimedia.org/wikipedia/commons/4/46/Matplotlib_logo.svg) **Matplotlib**  
-- ![Seaborn Logo](https://upload.wikimedia.org/wikipedia/commons/0/0c/Seaborn-logo.svg) **Seaborn**  
+- ![Python Logo](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo.png =50x50) **Python**  
+  Powerful programming language for data analysis and machine learning.  
+- ![Power BI Logo](https://upload.wikimedia.org/wikipedia/commons/4/44/Power_BI_Logo.png =50x50) **Power BI**  
+  Business analytics tool for visualizing and sharing insights.  
+- ![Pandas Logo](https://upload.wikimedia.org/wikipedia/commons/2/22/Pandas_mark.svg =50x50) **Pandas**  
+  Data manipulation and analysis library for Python.  
+- ![NumPy Logo](https://upload.wikimedia.org/wikipedia/commons/2/2e/NumPy_logo_2020.svg =50x50) **NumPy**  
+  Core library for numerical computing in Python.  
+- ![Matplotlib Logo](https://upload.wikimedia.org/wikipedia/commons/4/46/Matplotlib_logo.svg =50x50) **Matplotlib**  
+  Visualization library for creating static, animated, and interactive plots.  
+- ![Seaborn Logo](https://upload.wikimedia.org/wikipedia/commons/0/0c/Seaborn-logo.svg =50x50) **Seaborn**  
+  Statistical data visualization library built on top of Matplotlib.  
 
-- 📑 **Microsoft Excel**
+- 📑 **Microsoft Excel**  
+  Used for organizing, analyzing, and visualizing data in a tabular format.  
 
-- 📝 **Jupyter Notebook**
+- 📝 **Jupyter Notebook**  
+  Interactive notebook for running and documenting data analysis and code.  
 
-- 📂 **CSV & Excel Files** (for data storage)
+- 📂 **CSV & Excel Files**  
+  Used for storing and exchanging structured data.
 
