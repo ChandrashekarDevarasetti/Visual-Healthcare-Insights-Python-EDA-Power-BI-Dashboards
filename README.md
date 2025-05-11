@@ -182,4 +182,4 @@ jupyter notebook Python/HealthCare_EDA.ipynb
  &nbsp;&nbsp;&nbsp;&nbsp; If you need to refresh the data, connect to the Excel file located under the /data/ directory.
 
 ## 📌 Detailed Overview of Healthcare_EDA in Python <a name="8-detailed-overview-of-health_care_eda-in-python"></a>
-> Description of the Dataset
+### Description of the Dataset
