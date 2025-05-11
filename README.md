@@ -48,17 +48,17 @@ This project demonstrates how Python-based data engineering can seamlessly integ
 
 ## 🛠️ Tools & Technologies  
 
-- ![Python Logo](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo.png =50x50) **Python**  
+- <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo.png" width="50" height="50"> **Python**  
   Powerful programming language for data analysis and machine learning.  
-- ![Power BI Logo](https://upload.wikimedia.org/wikipedia/commons/4/44/Power_BI_Logo.png =50x50) **Power BI**  
+- <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Power_BI_Logo.png" width="50" height="50"> **Power BI**  
   Business analytics tool for visualizing and sharing insights.  
-- ![Pandas Logo](https://upload.wikimedia.org/wikipedia/commons/2/22/Pandas_mark.svg =50x50) **Pandas**  
+- <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Pandas_mark.svg" width="50" height="50"> **Pandas**  
   Data manipulation and analysis library for Python.  
-- ![NumPy Logo](https://upload.wikimedia.org/wikipedia/commons/2/2e/NumPy_logo_2020.svg =50x50) **NumPy**  
+- <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/NumPy_logo_2020.svg" width="50" height="50"> **NumPy**  
   Core library for numerical computing in Python.  
-- ![Matplotlib Logo](https://upload.wikimedia.org/wikipedia/commons/4/46/Matplotlib_logo.svg =50x50) **Matplotlib**  
+- <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Matplotlib_logo.svg" width="50" height="50"> **Matplotlib**  
   Visualization library for creating static, animated, and interactive plots.  
-- ![Seaborn Logo](https://upload.wikimedia.org/wikipedia/commons/0/0c/Seaborn-logo.svg =50x50) **Seaborn**  
+- <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Seaborn-logo.svg" width="50" height="50"> **Seaborn**  
   Statistical data visualization library built on top of Matplotlib.  
 
 - 📑 **Microsoft Excel**  
@@ -70,3 +70,4 @@ This project demonstrates how Python-based data engineering can seamlessly integ
 - 📂 **CSV & Excel Files**  
   Used for storing and exchanging structured data.
 
+  
