@@ -39,10 +39,10 @@
 
 
 
-## 📌 Project Overview <a name="1-project-overview"></a>
+## 📌 1. Project Overview <a name="1-project-overview"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;This project focuses on analyzing healthcare data to uncover key insights into patient admissions, medical conditions, treatment outcomes, and hospital performance. By combining Python for data preparation and cleaning with Power BI for interactive dashboards, the project aims to support healthcare administrators in making data-driven operational and clinical decisions.
 
-## 📌 Project Description <a name="2-project-description"></a>
+## 📌 2. Project Description <a name="2-project-description"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;🩺 The Healthcare Data Analysis and Visualization Project involves working with a multi-sheet Excel dataset containing patient details, hospital information, doctor records, and patient visit data. The project workflow starts with merging and cleaning the data using Python libraries such as Pandas and NumPy in a Jupyter Notebook environment. Key data cleaning steps included handling missing values, standardizing text data, mapping admission type codes, calculating patient length of stay, and identifying high billing cases.
 
 After preparing a clean and integrated dataset, exploratory data analysis (EDA) was performed in Python to validate data distributions and detect anomalies. The prepared dataset was then visualized in Power BI, where a series of interactive dashboards were built to deliver actionable insights.
@@ -61,7 +61,7 @@ The dashboards created include:
 
 This project demonstrates how Python-based data engineering can seamlessly integrate with BI tools like Power BI to deliver healthcare insights that improve operational efficiency and patient care decisions.
 
-## 📌 Key Features <a name="3-key-features"></a>
+## 📌 3. Key Features <a name="3-key-features"></a>
 - 📑 Merges multiple Excel sheets into a single clean dataset.
 
 - 🧹 Cleans and standardizes patient, doctor, and hospital details.
@@ -78,7 +78,7 @@ This project demonstrates how Python-based data engineering can seamlessly integ
 
 - 📈 Builds Power BI dashboards for dynamic visual insights.
 
-## 📌 Tools & Technologies <a name="4-tools--technologies"></a>
+## 📌4. Tools & Technologies <a name="4-tools--technologies"></a>
 
 - Python
   - Pandas
@@ -90,7 +90,7 @@ This project demonstrates how Python-based data engineering can seamlessly integ
 - 📓 Jupyter Notebook
 - 📂 CSV & Excel Files (for data storage)
 
-## 📌 Project Folder Structure <a name="5-project-folder-structure"></a>
+## 📌 5. Project Folder Structure <a name="5-project-folder-structure"></a>
 
 ├── 📁 Data/ # Healthcare Excel dataset files
 
@@ -122,7 +122,7 @@ This project demonstrates how Python-based data engineering can seamlessly integ
 
 ├── 📄 README.md # Project overview and documentation
 
-## 📌 Installation & Setup (One Block for Python + Power BI) <a name="6-installation--setup"></a>
+## 📌 6. Installation & Setup (One Block for Python + Power BI) <a name="6-installation--setup"></a>
 
 #### 1️⃣ Clone the repository
 git clone [https://github.com/ChandrashekarDevarasetti/Visual-Healthcare-Insights-Python-EDA-Power-BI-Dashboards.git](https://github.com/ChandrashekarDevarasetti/Visual-Healthcare-Insights-Python-EDA-Power-BI-Dashboards)
@@ -139,7 +139,7 @@ jupyter notebook Python/HealthCare_EDA.ipynb
 #### Navigate to the 'PowerBI' folder and open 'HealthCare_Dashboard.pbix' in Power BI Desktop
 
 
-## 📌  How to Run (For both Python EDA + Power BI) <a name="7-how-to-run"></a>
+## 📌 7. How to Run (For both Python EDA + Power BI) <a name="7-how-to-run"></a>
 
 ### Run Python EDA Notebook
 
@@ -181,5 +181,15 @@ jupyter notebook Python/HealthCare_EDA.ipynb
 
  &nbsp;&nbsp;&nbsp;&nbsp; If you need to refresh the data, connect to the Excel file located under the /data/ directory.
 
-## 📌 Detailed Overview of Healthcare_EDA in Python <a name="8-detailed-overview-of-health_care_eda-in-python"></a>
-### Description of the Dataset
+## 📌8. Detailed Overview of HealthCare_EDA in Python <a name="8-detailed-overview-of-health_care_eda-in-python"></a>
+&nbsp;&nbsp;&nbsp;&nbsp; This notebook begins with a descriptive exploration of the patient and hospital datasets using summary statistics and visual analysis. It then examines patterns in patient demographics, admission types, and medical conditions to understand what factors may influence hospital stay duration. Finally, relationships between variables such as department, billing, and severity of illness are analyzed further.
+
+### 8.1. Description of the Dataset <a name="81-description-of-the-dataset"></a>
+&nbsp;&nbsp;&nbsp;&nbsp; The data in the healthcare dataset includes information about patients admitted to hospitals across different medical conditions. It contains 55500 rows and 17 columns, with data spanning several years, starting from 2019. The dataset includes details such as patient ID (P_ID), doctor ID (D_ID), hospital ID (H_ID), medical condition, date of admission, insurance provider, billing amount, room number, admission type, discharge date, medication prescribed, test results, patient name, age, gender, blood type, doctor name, and hospital name.
+
+Key variables in the dataset include medical condition (Cancer, Diabetes, Asthma, Hypertension), billing amount (non-negative real numbers), room number (integer), admission type (Elective, Emergency, Urgent), and medication (Lipitor, Aspirin, Paracetamol). The age and blood type variables are numerical, while gender and insurance provider are categorical variables. The test results vary, with categories like Inconclusive, Abnormal, Normal and NaN values.
+
+![info](Images/Healthcare Dataset Info.png)
+
+
+### 8.2. 
