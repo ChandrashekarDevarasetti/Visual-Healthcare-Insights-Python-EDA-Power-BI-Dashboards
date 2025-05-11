@@ -14,28 +14,28 @@
 6. [Installation & Setup (One Block for Python + Power BI)](#6-installation--setup)  
 7. [How to Run (For both Python EDA + Power BI)](#7-how-to-run)  
 8. [Detailed Overview of Health_Care_EDA in Python](#8-detailed-overview-of-health_care_eda-in-python)  
-     &nbsp;&nbsp;&nbsp;&nbsp; 8.1. [Description of the Dataset](#81-description-of-the-dataset)  
-     &nbsp;&nbsp;&nbsp;&nbsp; 8.2. [Data Cleaning & Preparation](#82-data-cleaning--preparation)  
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.2.1. [Merging All Datasets](#821-merging-all-datasets)  
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.2.2. [Standardizing Data](#822-standardizing-data)  
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.2.3. [Data Integrity Validation](#823-data-integrity-validation)  
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.2.4. [Handling Missing Values](#824-handling-missing-values)  
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.2.5. [Handling Duplicates Records](#825-handling-duplicates)  
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.2.6. [Converting Datatypes](#826-converting-datatypes)  
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.2.7. [Creating Derived Columns](#827-creating-derived-columns)  
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.2.8. [Mapping Categorical Values](#828-mapping-categorical-values)  
+     &nbsp;&nbsp;&nbsp;&nbsp; 8.1 [Description of the Dataset](#81-description-of-the-dataset)  
+     &nbsp;&nbsp;&nbsp;&nbsp; 8.2 [Data Cleaning & Preparation](#82-data-cleaning--preparation)  
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.2.1 [Merging All Datasets](#821-merging-all-datasets)  
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.2.2 [Standardizing Data](#822-standardizing-data)  
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.2.3 [Data Integrity Validation](#823-data-integrity-validation)  
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.2.4 [Handling Missing Values](#824-handling-missing-values)  
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.2.5 [Handling Duplicates Records](#825-handling-duplicates)  
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.2.6 [Converting Datatypes](#826-converting-datatypes)  
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.2.7 [Creating Derived Columns](#827-creating-derived-columns)  
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.2.8 [Mapping Categorical Values](#828-mapping-categorical-values)  
 9. [Exploratory Data Analysis (EDA)](#9-exploratory-data-analysis-eda)  
-    &nbsp;&nbsp;&nbsp;&nbsp; 9.1. [Univariate Analysis](#91-univariate-analysis)  
-    &nbsp;&nbsp;&nbsp;&nbsp; 9.2. [Bivariate Analysis](#92-bivariate-analysis)  
-    &nbsp;&nbsp;&nbsp;&nbsp; 9.3. [Multivariate Analysis](#93-multivariate-analysis)  
-    &nbsp;&nbsp;&nbsp;&nbsp; 9.4. [Distribution Analysis](#94-distribution-analysis)  
-    &nbsp;&nbsp;&nbsp;&nbsp; 9.5. [Correlation Analysis](#95-correlation-analysis)  
+    &nbsp;&nbsp;&nbsp;&nbsp; 9.1 [Univariate Analysis](#91-univariate-analysis)  
+    &nbsp;&nbsp;&nbsp;&nbsp; 9.2 [Bivariate Analysis](#92-bivariate-analysis)  
+    &nbsp;&nbsp;&nbsp;&nbsp; 9.3 [Multivariate Analysis](#93-multivariate-analysis)  
+    &nbsp;&nbsp;&nbsp;&nbsp; 9.4 [Distribution Analysis](#94-distribution-analysis)  
+    &nbsp;&nbsp;&nbsp;&nbsp; 9.5 [Correlation Analysis](#95-correlation-analysis)  
 10. [Detailed Overview of Power BI Dashboard](#10-detailed-overview-of-power-bi-dashboard)  
-    &nbsp;&nbsp;&nbsp;&nbsp; 10.1. [Overview Dashboard](#101-overview-dashboard)  
-    &nbsp;&nbsp;&nbsp;&nbsp; 10.2. [Medical Condition & Outcome Analysis](#102-medical-condition--outcome-analysis)  
-    &nbsp;&nbsp;&nbsp;&nbsp; 10.3. [Billing & Insurance Analysis](#103-billing--insurance-analysis)  
-    &nbsp;&nbsp;&nbsp;&nbsp; 10.4. [Doctor & Hospital Performance](#104-doctor--hospital-performance)  
-    &nbsp;&nbsp;&nbsp;&nbsp; 10.5. [Time-Based Analysis](#105-time-based-analysis)
+    &nbsp;&nbsp;&nbsp;&nbsp; 10.1 [Overview Dashboard](#101-overview-dashboard)  
+    &nbsp;&nbsp;&nbsp;&nbsp; 10.2 [Medical Condition & Outcome Analysis](#102-medical-condition--outcome-analysis)  
+    &nbsp;&nbsp;&nbsp;&nbsp; 10.3 [Billing & Insurance Analysis](#103-billing--insurance-analysis)  
+    &nbsp;&nbsp;&nbsp;&nbsp; 10.4 [Doctor & Hospital Performance](#104-doctor--hospital-performance)  
+    &nbsp;&nbsp;&nbsp;&nbsp; 10.5 [Time-Based Analysis](#105-time-based-analysis)
 
 
 
@@ -184,12 +184,39 @@ jupyter notebook Python/HealthCare_EDA.ipynb
 ## 📌8. Detailed Overview of HealthCare_EDA in Python <a name="8-detailed-overview-of-health_care_eda-in-python"></a>
 &nbsp;&nbsp;&nbsp;&nbsp; This notebook begins with a descriptive exploration of the patient and hospital datasets using summary statistics and visual analysis. It then examines patterns in patient demographics, admission types, and medical conditions to understand what factors may influence hospital stay duration. Finally, relationships between variables such as department, billing, and severity of illness are analyzed further.
 
-### 8.1. Description of the Dataset <a name="81-description-of-the-dataset"></a>
+### 8.1 Description of the Dataset <a name="81-description-of-the-dataset"></a>
 &nbsp;&nbsp;&nbsp;&nbsp; The data in the healthcare dataset includes information about patients admitted to hospitals across different medical conditions. It contains 55500 rows and 17 columns, with data spanning several years, starting from 2019. The dataset includes details such as patient ID (P_ID), doctor ID (D_ID), hospital ID (H_ID), medical condition, date of admission, insurance provider, billing amount, room number, admission type, discharge date, medication prescribed, test results, patient name, age, gender, blood type, doctor name, and hospital name.
 
 Key variables in the dataset include medical condition (Cancer, Diabetes, Asthma, Hypertension), billing amount (non-negative real numbers), room number (integer), admission type (Elective, Emergency, Urgent), and medication (Lipitor, Aspirin, Paracetamol). The age and blood type variables are numerical, while gender and insurance provider are categorical variables. The test results vary, with categories like Inconclusive, Abnormal, Normal and NaN values.
 
-![info](Images/Healthcare Dataset Info.png)
+![info](Images/Healthcare_Dataset_Info.png)
+
+### 8.2 Data Cleaning & Preparation
+&nbsp;&nbsp;&nbsp;&nbsp; Data Cleaning & Preparation is the process of identifying and fixing errors, inconsistencies, and missing values in raw data, transforming it into a structured, reliable, and analysis-ready format for further processing.
+
+#### 8.2.1 Merging All Datasets
+&nbsp;&nbsp;&nbsp;&nbsp; To perform a complete analysis, we merge all four datasets using their respective key columns (**P_ID, D_ID, H_ID**). This helps consolidate **patient details, doctor information, hospital data, and medical history** into a single unified DataFrame for further exploration and visualization.
+
+![merged_df](Images/Merged_df.png)
+
+#### 8.2.2 Standardizing Name Fields & Removing Duplicates in merged data
+&nbsp;&nbsp;&nbsp;&nbsp; After merging all datasets, we ensure the `Name`, `Doctor`, and `Hospital` columns are clean and consistently formatted. This helps eliminate redundancy, avoids mismatched values, and improves overall data quality for analysis and visualization.
+
+![standardizing_df](Images/Standardizing_df.png)
+
+#### 8.2.3 Data Integrity Validation for Foreign Keys (P_ID, D_ID, H_ID) 
+Identifying Mismatches and Foreign Key Issues Between P_ID, D_ID, and H_ID in Merged Data and Master Tables
+
+![Data_Integrity](Images/Data_Integrity.png)
+
+#### 8.2.4 Handling Missing Values
+Identifing and appropriately handling missing values in the dataset to prevent incomplete analysis or errors during visualization.
+
+![Missing_Values](Images/Missing_Values.png)
+
+#### 8.2.5 Handling Duplicate Records
+Identifing and appropriately handling missing values in the dataset to prevent incomplete analysis or errors during visualization.
+
+![Duplicate_Records](Images/Duplicate_Records.png)
 
 
-### 8.2. 
