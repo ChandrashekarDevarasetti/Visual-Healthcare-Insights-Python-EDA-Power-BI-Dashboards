@@ -106,7 +106,7 @@ jupyter notebook Python/HealthCare_EDA.ipynb
 #### 4️⃣ Open the Power BI Dashboard manually:
 #### Navigate to the 'PowerBI' folder and open 'HealthCare_Dashboard.pbix' in Power BI Desktop
 
-## 📌  How to Run (For both Python EDa + Power BI)
+## 📌  How to Run (For both Python EDA + Power BI)
 
 ### Run Python EDA Notebook
 
