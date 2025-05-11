@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Images/Healthcare Project Guide Illustration.png" alt="Healthcare Data Insights Banner" width="1000" height = "100">
+  <img src="Images/Healthcare Project Guide Illustration.png" alt="Healthcare Data Insights Banner" width="500" height = "500">
 </p>
 
 
