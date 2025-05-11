@@ -46,29 +46,25 @@ This project demonstrates how Python-based data engineering can seamlessly integ
 
 - 📈 Builds Power BI dashboards for dynamic visual insights.
 
-## 🛠️ Tools & Technologies  
+## 📌 Tools & Technologies
+- Python
 
-- <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo.png" width="50" height="50"> **Python**  
-  Powerful programming language for data analysis and machine learning.  
-- <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Power_BI_Logo.png" width="50" height="50"> **Power BI**  
-  Business analytics tool for visualizing and sharing insights.  
-- <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Pandas_mark.svg" width="50" height="50"> **Pandas**  
-  Data manipulation and analysis library for Python.  
-- <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/NumPy_logo_2020.svg" width="50" height="50"> **NumPy**  
-  Core library for numerical computing in Python.  
-- <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Matplotlib_logo.svg" width="50" height="50"> **Matplotlib**  
-  Visualization library for creating static, animated, and interactive plots.  
-- <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Seaborn-logo.svg" width="50" height="50"> **Seaborn**  
-  Statistical data visualization library built on top of Matplotlib.  
+ - Pandas
 
-- 📑 **Microsoft Excel**  
-  Used for organizing, analyzing, and visualizing data in a tabular format.  
+ - NumPy
 
-- 📝 **Jupyter Notebook**  
-  Interactive notebook for running and documenting data analysis and code.  
+ - Matplotlib
 
-- 📂 **CSV & Excel Files**  
-  Used for storing and exchanging structured data.
+ - Seaborn
+
+- Power BI
+
+- 📑 Microsoft Excel
+
+- 📝 Jupyter Notebook
+
+- 📂 CSV & Excel Files (for data storage)
+
 
 
   
