@@ -110,7 +110,7 @@ jupyter notebook Python/HealthCare_EDA.ipynb
 
 ### - Run Python EDA Notebook
 
-#### 1️⃣ Install dependencies  
+&nbsp;&nbsp;&nbsp;&nbsp; #### 1️⃣ Install dependencies  
 Make sure you have all the necessary dependencies by running the following command:
 
 pip install -r Python/requirements.txt
