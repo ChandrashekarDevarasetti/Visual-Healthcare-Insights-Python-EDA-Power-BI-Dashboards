@@ -104,4 +104,4 @@ pip install -r Python/requirements.txt
 jupyter notebook Python/HealthCare_EDA.ipynb
 
 ### 4️⃣ Open the Power BI Dashboard manually:
-### Navigate to the 'PowerBI' folder and open 'HEALTHCARE_DASHBOARD.pbix' in Power BI Desktop
+### Navigate to the 'PowerBI' folder and open 'HealthCare_Dashboard.pbix' in Power BI Desktop
