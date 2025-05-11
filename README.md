@@ -4,7 +4,7 @@
 
 # Visual-Healthcare-Insights-Python-EDA-Power-BI-Dashboards
 
-## Table of Contents
+## 📚 Table of Contents
 
 1. [Project Overview](#1-project-overview)  
 2. [Project Description](#2-project-description)  
@@ -30,7 +30,7 @@
     &nbsp;&nbsp;&nbsp;&nbsp; 9.3 [Multivariate Analysis](#93-multivariate-analysis)  
     &nbsp;&nbsp;&nbsp;&nbsp; 9.4 [Distribution Analysis](#94-distribution-analysis)  
     &nbsp;&nbsp;&nbsp;&nbsp; 9.5 [Correlation Analysis](#95-correlation-analysis)  
-10. [Detailed Overview of Power BI Dashboard](#10-detailed-overview-of-power-bi-dashboard)  
+10. [Detailed Overview of HealthCare Power BI Dashboard](#10-detailed-overview-of-power-bi-dashboard)  
     &nbsp;&nbsp;&nbsp;&nbsp; 10.1 [Overview Dashboard](#101-overview-dashboard)  
     &nbsp;&nbsp;&nbsp;&nbsp; 10.2 [Medical Condition & Outcome Analysis](#102-medical-condition--outcome-analysis)  
     &nbsp;&nbsp;&nbsp;&nbsp; 10.3 [Billing & Insurance Analysis](#103-billing--insurance-analysis)  
@@ -181,7 +181,7 @@ jupyter notebook Python/HealthCare_EDA.ipynb
 
  &nbsp;&nbsp;&nbsp;&nbsp; If you need to refresh the data, connect to the Excel file located under the /data/ directory.
 
-## 📌8. Detailed Overview of HealthCare_EDA in Python <a name="8-detailed-overview-of-health_care_eda-in-python"></a>
+## 📌 8. Detailed Overview of HealthCare_EDA in Python <a name="8-detailed-overview-of-health_care_eda-in-python"></a>
 &nbsp;&nbsp;&nbsp;&nbsp; This notebook begins with a descriptive exploration of the patient and hospital datasets using summary statistics and visual analysis. It then examines patterns in patient demographics, admission types, and medical conditions to understand what factors may influence hospital stay duration. Finally, relationships between variables such as department, billing, and severity of illness are analyzed further.
 
 ### 8.1 Description of the Dataset <a name="81-description-of-the-dataset"></a>
@@ -191,32 +191,163 @@ Key variables in the dataset include medical condition (Cancer, Diabetes, Asthma
 
 ![info](Images/Healthcare_Dataset_Info.png)
 
-### 8.2 Data Cleaning & Preparation
+### 8.2 Data Cleaning & Preparation <a name="82-data-cleaning--preparation"></a>
 &nbsp;&nbsp;&nbsp;&nbsp; Data Cleaning & Preparation is the process of identifying and fixing errors, inconsistencies, and missing values in raw data, transforming it into a structured, reliable, and analysis-ready format for further processing.
 
-#### 8.2.1 Merging All Datasets
+#### 8.2.1 Merging All Datasets <a name="821-merging-all-datasets"></a>
 &nbsp;&nbsp;&nbsp;&nbsp; To perform a complete analysis, we merge all four datasets using their respective key columns (**P_ID, D_ID, H_ID**). This helps consolidate **patient details, doctor information, hospital data, and medical history** into a single unified DataFrame for further exploration and visualization.
 
 ![merged_df](Images/Merged_df.png)
 
-#### 8.2.2 Standardizing Name Fields & Removing Duplicates in merged data
+#### 8.2.2 Standardizing Name Fields & Removing Duplicates in merged data <a name="822-standardizing-data"></a>
 &nbsp;&nbsp;&nbsp;&nbsp; After merging all datasets, we ensure the `Name`, `Doctor`, and `Hospital` columns are clean and consistently formatted. This helps eliminate redundancy, avoids mismatched values, and improves overall data quality for analysis and visualization.
 
 ![standardizing_df](Images/Standardizing_df.png)
 
-#### 8.2.3 Data Integrity Validation for Foreign Keys (P_ID, D_ID, H_ID) 
+#### 8.2.3 Data Integrity Validation for Foreign Keys (P_ID, D_ID, H_ID) <a name="823-data-integrity-validation"></a>
 Identifying Mismatches and Foreign Key Issues Between P_ID, D_ID, and H_ID in Merged Data and Master Tables
 
 ![Data_Integrity](Images/Data_Integrity.png)
 
-#### 8.2.4 Handling Missing Values
+#### 8.2.4 Handling Missing Values <a name="824-handling-missing-values"></a>
 Identifing and appropriately handling missing values in the dataset to prevent incomplete analysis or errors during visualization.
 
 ![Missing_Values](Images/Missing_Values.png)
 
-#### 8.2.5 Handling Duplicate Records
+#### 8.2.5 Handling Duplicate Records <a name="825-handling-duplicates"></a>
 Identifing and appropriately handling missing values in the dataset to prevent incomplete analysis or errors during visualization.
 
 ![Duplicate_Records](Images/Duplicate_Records.png)
 
+#### 8.2.6 Converting Data Types <a name="826-converting-datatypes"></a>
+Ensure all columns have correct data types for analysis.
+
+![Converting_Datatypes](Images/Converting_Datatypes.png)
+
+#### 8.2.7 Creating New Derived Columns <a name="827-creating-derived-columns"></a>
+Creating useful new columns like Length of Stay or Billing Category.
+
+![Derived_Columns](Images/Derived_Columns.png)
+
+#### 8.2.8 Mapping Categorical Values <a name="828-mapping-categorical-values"></a>
+Mapping or encode categorical values for better readability or later modeling.
+
+![Mapping_Categorical_Values](Images/Mapping_Categorical_Values.png)
+
+### 📌 9. Exploratory Data Analysis (EDA) <a name="9-exploratory-data-analysis-eda"></a>
+Creating charts and graphs to make sense of data patterns, trends, relationships, and anomalies visually.
+
+![EDA](Images/EDA.png)
+
+#### 9.1 Univariate Analysis <a name="91-univariate-analysis"></a>
+&nbsp;&nbsp;&nbsp;&nbsp; Univariate Analysis is the simplest form of data analysis where only one variable is analyzed at a time to understand its distribution, central tendency, spread, and underlying patterns.
+
+![Univariate](Images/Univariate.png)
+
+#### 9.2 Bivariate Analysis <a name="92-bivariate-analysis"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;  Bivariate Analysis is the **analysis of two variables simultaneously** to explore the **relationship, association, or correlation** between them and understand how one variable affects or relates to the other.
+
+![Bivariate](Images/Bivariate.png)
+
+#### 9.3 Multivariate Analysis <a name="93-multivariate-analysis"></a> 
+Multivariate Analysis is the *analysis of more than two variables simultaneously* to understand complex relationships, interactions, and combined effects among multiple variables within a dataset.
+
+![Multivariate](Images/Multivariate.png)
+
+#### 9.4 Distribution Analysis <a name="94-distribution-analysis"></a> 
+Understand data distribution patterns and proportions.
+
+![Distributions](Images/Distributions.png)
+
+#### 9.5 Correlation Analysis <a name="95-correlation-analysis"></a>
+*Correlation Heatmap:* Show correlation strength between multiple numeric variables
+
+![Correlation_Heatmap](Images/Correlation_Heatmap.png)
+
+### 📌 10. Detailed Overview of HealthCare Power BI Dashboard <a name="10-detailed-overview-of-power-bi-dashboard"></a>
+&nbsp;&nbsp;&nbsp;&nbsp; This comprehensive Power BI Healthcare Admissions & Billing Dashboard offers end-to-end insights into patient admissions, medical conditions, doctor performance, billing trends, and time-based activity. It includes interactive KPI cards, dynamic charts, matrix visuals, and drill-through pages for detailed patient-level analysis. The dashboard empowers stakeholders to monitor hospital operations, financial performance, and clinical outcomes effectively with slicers, bookmarks, and customized timelines for rich, interactive exploration.
+
+#### 10.1 🔍 Overview Dashboard <a name="101-overview-dashboard"></a>
+
+**What it does:**
+This dashboard provides a quick summary of hospital admissions, patient volumes, and financial performance.
+
+**📊 Visual Insights:**
+
+ - KPI cards display total admissions, average stay, total billing, and avg. billing per patient.
+
+ - Bar chart shows admissions trend by year/month.
+
+ - Donut chart compares Elective vs Emergency admissions.
+
+ - Slicers allow filtering by Year, Gender, and Insurance Provider.
+
+**🎯 Result:**
+Quickly monitor hospital activity, identify admission trends, and understand patient distribution by type and demographics at a glance.
+
+#### 10.2 🏥 Medical Condition & Outcome Analysis <a name="102-medical-condition--outcome-analysis"></a>
+
+**What it does:**
+This dashboard highlights patient counts by medical condition and their corresponding test outcomes.
+
+**📊 Visual Insights:**
+
+ - Stacked bar chart shows the Top 10 medical conditions by number of patients.
+
+ - Matrix displays the outcome distribution (Normal, Abnormal, Inconclusive) for each condition.
+
+ - Table lists patient details, filterable by condition and doctor using slicers.
+
+**🎯 Result:**
+Quickly identify which conditions are most common, how patients are performing in tests, and filter detailed patient lists for deeper analysis.
+
+#### 10.3 💵 Billing & Insurance Analysis <a name="103-billing--insurance-analysis"></a>
+
+**What it does:**
+This dashboard tracks hospital billing patterns, insurance provider contributions, and cost relationships.
+
+**📊 Visual Insights:**
+
+ - Bar chart compares total billing amounts by insurance provider.
+
+ - Line chart shows billing trends over time.
+
+ - Scatter chart visualizes how billing amounts relate to patient length of stay, color-coded by medical condition.
+
+**🎯 Result:**
+Easily monitor financial performance, identify top-paying insurers, and spot patterns between costs, patient stays, and conditions.
+
+#### 10.4 🧑‍⚕️ Doctor & Hospital Performance <a name="104-doctor--hospital-performance"></a>
+
+**What it does:**
+This dashboard evaluates doctor workload, patient outcomes, and hospital-wise admissions.
+
+**📊 Visual Insights:**
+
+ - Table/Matrix shows each doctor’s patient count, average billing, and average length of stay.
+
+ - Bar chart displays number of admissions per hospital.
+
+ - Heat map cross-tabulates doctors with admission types and test results.
+
+**🎯 Result:**
+Identify high-performing doctors, hospital patient loads, and how test results vary by doctor and admission type.
+
+#### 10.5 📅 Time-Based Analysis <a name="105-time-based-analysis"></a>
+
+**What it does:**
+This dashboard tracks patient admissions over time, helping spot trends and seasonal patterns.
+
+**📊 Visual Insights:**
+
+- Line chart shows admission trends over time.
+
+- Calendar heatmap highlights daily admissions activity.
+
+- Custom timeline (via bookmarks) lets users switch views by Year → Quarter → Month → Date.
+
+- Drill-through pages provide patient-level details from any time point.
+
+**🎯 Result:**
+Understand how admissions fluctuate over time, identify peak periods, and drill down to patient records on specific dates for deeper analysis.
 
