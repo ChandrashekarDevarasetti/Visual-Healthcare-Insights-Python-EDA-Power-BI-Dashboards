@@ -36,8 +36,8 @@
     &nbsp;&nbsp;&nbsp;&nbsp; 10.3 [Billing & Insurance Analysis](#103-billing--insurance-analysis)  
     &nbsp;&nbsp;&nbsp;&nbsp; 10.4 [Doctor & Hospital Performance](#104-doctor--hospital-performance)  
     &nbsp;&nbsp;&nbsp;&nbsp; 10.5 [Time-Based Analysis](#105-time-based-analysis)
-11. [Author](#11-Author)
-12. [License](#12-License)
+11. [Author](#11-author)
+12. [License](#12-license)
 
 
 
@@ -369,7 +369,7 @@ Understand how admissions fluctuate over time, identify peak periods, and drill 
 
 ![Patient_Details_Drillthorugh](Images/Patient_Details_Drilltrough.png)
 
-## 👨‍💻 11. Author <a name="11-Author"></a>
+## 👨‍💻 11. Author <a name="11-author"></a>
 
 **Chandra Shekar Devarasetti**    
 Data Scientist | Enthusiast  
@@ -378,7 +378,7 @@ Data Scientist | Enthusiast
 - 🌐 LinkedIn: [Chandra_LinkedIn](https://www.linkedin.com/in/chandra-shekar-devarasetti-8799b2222/)
 - 🌐 Portfolio: [Chandra_Portfolio](https://chandrashekardevarasetti.github.io/Chandra_Portfolio/)
 
-## 12. License <a name="12-License"></a>
+## 12. License <a name="12-license"></a>
 
 This project is licensed under the [MIT License](LICENSE).
 
