@@ -46,5 +46,18 @@ This project demonstrates how Python-based data engineering can seamlessly integ
 
 - 📈 Builds Power BI dashboards for dynamic visual insights.
 
+## 🛠️ Tools & Technologies  
 
+- ![Python Logo](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo.png) **Python**  
+- ![Power BI Logo](https://upload.wikimedia.org/wikipedia/commons/4/44/Power_BI_Logo.png) **Power BI**  
+- ![Pandas Logo](https://upload.wikimedia.org/wikipedia/commons/2/22/Pandas_mark.svg) **Pandas**  
+- ![NumPy Logo](https://upload.wikimedia.org/wikipedia/commons/2/2e/NumPy_logo_2020.svg) **NumPy**  
+- ![Matplotlib Logo](https://upload.wikimedia.org/wikipedia/commons/4/46/Matplotlib_logo.svg) **Matplotlib**  
+- ![Seaborn Logo](https://upload.wikimedia.org/wikipedia/commons/0/0c/Seaborn-logo.svg) **Seaborn**  
+
+- 📑 **Microsoft Excel**
+
+- 📝 **Jupyter Notebook**
+
+- 📂 **CSV & Excel Files** (for data storage)
 
