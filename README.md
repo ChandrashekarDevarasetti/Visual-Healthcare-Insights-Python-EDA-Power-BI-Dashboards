@@ -66,7 +66,6 @@ This project demonstrates how Python-based data engineering can seamlessly integ
 
 │
 
-
 ├── 📁 Images/ # Project images for README or dashboards
 
 │
@@ -91,5 +90,17 @@ This project demonstrates how Python-based data engineering can seamlessly integ
 
 ├── 📄 README.md # Project overview and documentation
 
+## 📌 Installation & Setup (One Block for Python + Power BI)
 
+### 1️⃣ Clone the repository
+git clone [https://github.com/your-username/your-repo-name.git](https://github.com/ChandrashekarDevarasetti/Visual-Healthcare-Insights-Python-EDA-Power-BI-Dashboards)
+cd your-repo-name
 
+### 2️⃣ Install required Python packages
+pip install -r Python/requirements.txt
+
+### 3️⃣ Launch the Jupyter Notebook
+jupyter notebook Python/HealthCare_EDA.ipynb
+
+### 4️⃣ Open the Power BI Dashboard manually:
+### Navigate to the 'PowerBI' folder and open 'HEALTHCARE_DASHBOARD.pbix' in Power BI Desktop
