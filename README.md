@@ -2,8 +2,6 @@
   <img src="Images/Healthcare Project Guide Illustration.png" alt="Healthcare Data Insights Banner" width="700" height = "400">
 </p>
 
-
-
 # Visual-Healthcare-Insights-Python-EDA-Power-BI-Dashboards
 
 
@@ -89,6 +87,7 @@ This project demonstrates how Python-based data engineering can seamlessly integ
 ├── 📄 LICENSE # Project open source license
 
 ├── 📄 README.md # Project overview and documentation
+
 
 ## 📌 Installation & Setup (One Block for Python + Power BI)
 
