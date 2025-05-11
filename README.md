@@ -31,7 +31,9 @@ This project demonstrates how Python-based data engineering can seamlessly integ
 
 ## 📌 Key Features
 📑 Merges multiple Excel sheets into a single clean dataset.
+
 🧹 Cleans and standardizes patient, doctor, and hospital details.
+
 ⚙️ Handles missing values (numeric → median, categorical → mode).
 📏 Calculates Length of Stay for each patient.
 💸 Flags patients with High Billing Amounts.
