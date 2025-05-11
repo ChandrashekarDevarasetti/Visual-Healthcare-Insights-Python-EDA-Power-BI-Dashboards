@@ -111,29 +111,30 @@ jupyter notebook Python/HealthCare_EDA.ipynb
 ### Run Python EDA Notebook
 
  #### 1️⃣ Install dependencies  
- Make sure you have all the necessary dependencies by running the following command:
+ &nbsp;&nbsp;&nbsp;&nbsp; Make sure you have all the necessary dependencies by running the following command:
 
  &nbsp;&nbsp;&nbsp;&nbsp; pip install -r Python/requirements.txt
 
  #### 2️⃣ Launch the Jupyter Notebook
- After installing the dependencies, open the Jupyter notebook with the following command:
- jupyter notebook Python/HEALTHCARE_EDA.ipynb
+ &nbsp;&nbsp;&nbsp;&nbsp; After installing the dependencies, open the Jupyter notebook with the following command:
+ 
+ &nbsp;&nbsp;&nbsp;&nbsp; jupyter notebook Python/HEALTHCARE_EDA.ipynb
 
  #### 3️⃣ In your browser, open the notebook and run all cells sequentially
- Once the notebook is open in your browser, execute all the cells to run the EDA analysis.
+ &nbsp;&nbsp;&nbsp;&nbsp; Once the notebook is open in your browser, execute all the cells to run the EDA analysis.
 
 
-### - 📊 Open Power BI Dashboard
+### 📊 Open Power BI Dashboard
  #### 1️⃣ Install Power BI Desktop
- If you haven't already, install Power BI Desktop. You can download it from here.
+ &nbsp;&nbsp;&nbsp;&nbsp; If you haven't already, install Power BI Desktop. You can download it from here.
 
  #### 2️⃣ Open the Power BI file
- To view the dashboards, open the Power BI file located in the PowerBI directory:
+ &nbsp;&nbsp;&nbsp;&nbsp; To view the dashboards, open the Power BI file located in the PowerBI directory:
 
  &nbsp;&nbsp;&nbsp;&nbsp; PowerBI/HealthCare_Dashboard.pbix
 
  #### 3️⃣ Explore all the interactive dashboards
- Once the Power BI file is open, you can explore the following interactive dashboards:
+ &nbsp;&nbsp;&nbsp;&nbsp; Once the Power BI file is open, you can explore the following interactive dashboards:
 
   - 📊 Overview Dashboard
 
@@ -145,4 +146,4 @@ jupyter notebook Python/HealthCare_EDA.ipynb
 
  #### 4️⃣ Refresh the dataset if needed
 
- If you need to refresh the data, connect to the Excel file located under the /data/ directory.
+ &nbsp;&nbsp;&nbsp;&nbsp; If you need to refresh the data, connect to the Excel file located under the /data/ directory.
