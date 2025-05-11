@@ -4,8 +4,36 @@
 
 # Visual-Healthcare-Insights-Python-EDA-Power-BI-Dashboards
 
+## 📑 Table of Contents
 
-## 📌 Project Overview
+1. [Project Overview](#1-project-overview)
+2. [Project Description](#2-project-description)
+3. [Key Features](#3-key-features)
+4. [Tools & Technologies](#4-tools--technologies)
+5. [Project Folder Structure](#5-project-folder-structure)
+6. [Installation & Setup](#6-installation--setup)
+7. [How to Run](#7-how-to-run)
+8. [Detailed Overview of Health_Care_EDA in Python](#8-detailed-overview-of-health_care_eda-in-python)
+    - [8.1 Description of the Dataset](#81-description-of-the-dataset)
+    - [8.2 Data Cleaning & Preparation](#82-data-cleaning--preparation)
+        - [a. Merging All Datasets](#a-merging-all-datasets)
+        - [b. Standardizing Data](#b-standardizing-data)
+        - [c. Data Integrity Validation](#c-data-integrity-validation)
+        - [d. Handling Missing Values](#d-handling-missing-values)
+        - [e. Handling Duplicates](#e-handling-duplicates)
+        - [f. Converting Datatypes](#f-converting-datatypes)
+        - [g. Creating Derived Columns](#g-creating-derived-columns)
+        - [h. Mapping Categorical Values](#h-mapping-categorical-values)
+9. [Exploratory Data Analysis (EDA)](#9-exploratory-data-analysis-eda)
+    - [a. Univariate Analysis](#a-univariate-analysis)
+    - [b. Bivariate Analysis](#b-bivariate-analysis)
+    - [c. Multivariate Analysis](#c-multivariate-analysis)
+    - [d. Distribution Analysis](#d-distribution-analysis)
+    - [e. Correlation Analysis](#e-correlation-analysis)
+10. [Detailed Overview of Power BI Dashboard](#10-detailed-overview-of-power-bi-dashboard)
+
+
+## 📌 Project Overview <a name="1-project-overview"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;This project focuses on analyzing healthcare data to uncover key insights into patient admissions, medical conditions, treatment outcomes, and hospital performance. By combining Python for data preparation and cleaning with Power BI for interactive dashboards, the project aims to support healthcare administrators in making data-driven operational and clinical decisions.
 
 ## 📌 Project Description
@@ -147,3 +175,5 @@ jupyter notebook Python/HealthCare_EDA.ipynb
 
  &nbsp;&nbsp;&nbsp;&nbsp; If you need to refresh the data, connect to the Excel file located under the /data/ directory.
 
+## 📌 Detailed Overview of Healthcare_EDA in Python
+> Description of the Dataset
