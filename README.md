@@ -4,39 +4,45 @@
 
 # Visual-Healthcare-Insights-Python-EDA-Power-BI-Dashboards
 
-## 📑 Table of Contents
+## Table of Contents
 
-1. [Project Overview](#1-project-overview)
-2. [Project Description](#2-project-description)
-3. [Key Features](#3-key-features)
-4. [Tools & Technologies](#4-tools--technologies)
-5. [Project Folder Structure](#5-project-folder-structure)
-6. [Installation & Setup](#6-installation--setup)
-7. [How to Run](#7-how-to-run)
-8. [Detailed Overview of Health_Care_EDA in Python](#8-detailed-overview-of-health_care_eda-in-python)
-    - [8.1 Description of the Dataset](#81-description-of-the-dataset)
-    - [8.2 Data Cleaning & Preparation](#82-data-cleaning--preparation)
-        - [a. Merging All Datasets](#a-merging-all-datasets)
-        - [b. Standardizing Data](#b-standardizing-data)
-        - [c. Data Integrity Validation](#c-data-integrity-validation)
-        - [d. Handling Missing Values](#d-handling-missing-values)
-        - [e. Handling Duplicates](#e-handling-duplicates)
-        - [f. Converting Datatypes](#f-converting-datatypes)
-        - [g. Creating Derived Columns](#g-creating-derived-columns)
-        - [h. Mapping Categorical Values](#h-mapping-categorical-values)
-9. [Exploratory Data Analysis (EDA)](#9-exploratory-data-analysis-eda)
-    - [a. Univariate Analysis](#a-univariate-analysis)
-    - [b. Bivariate Analysis](#b-bivariate-analysis)
-    - [c. Multivariate Analysis](#c-multivariate-analysis)
-    - [d. Distribution Analysis](#d-distribution-analysis)
-    - [e. Correlation Analysis](#e-correlation-analysis)
-10. [Detailed Overview of Power BI Dashboard](#10-detailed-overview-of-power-bi-dashboard)
+1. [Project Overview](#1-project-overview)  
+2. [Project Description](#2-project-description)  
+3. [Key Features](#3-key-features)  
+4. [Tools & Technologies](#4-tools--technologies)  
+5. [Project Folder Structure](#5-project-folder-structure)  
+6. [Installation & Setup (One Block for Python + Power BI)](#6-installation--setup)  
+7. [How to Run (For both Python EDA + Power BI)](#7-how-to-run)  
+8. [Detailed Overview of Health_Care_EDA in Python](#8-detailed-overview-of-health_care_eda-in-python)  
+    - [8.1 Description of the Dataset](#81-description-of-the-dataset)  
+    - [8.2 Data Cleaning & Preparation](#82-data-cleaning--preparation)  
+        - [8.2.1 Merging All Datasets](#821-merging-all-datasets)  
+        - [8.2.2 Standardizing Data](#822-standardizing-data)  
+        - [8.2.3 Data Integrity Validation](#823-data-integrity-validation)  
+        - [8.2.4 Handling Missing Values](#824-handling-missing-values)  
+        - [8.2.5 Handling Duplicates](#825-handling-duplicates)  
+        - [8.2.6 Converting Datatypes](#826-converting-datatypes)  
+        - [8.2.7 Creating Derived Columns](#827-creating-derived-columns)  
+        - [8.2.8 Mapping Categorical Values](#828-mapping-categorical-values)  
+9. [Exploratory Data Analysis (EDA)](#9-exploratory-data-analysis-eda)  
+    - [9.1 Univariate Analysis](#91-univariate-analysis)  
+    - [9.2 Bivariate Analysis](#92-bivariate-analysis)  
+    - [9.3 Multivariate Analysis](#93-multivariate-analysis)  
+    - [9.4 Distribution Analysis](#94-distribution-analysis)  
+    - [9.5 Correlation Analysis](#95-correlation-analysis)  
+10. [Detailed Overview of Power BI Dashboard](#10-detailed-overview-of-power-bi-dashboard)  
+    - [10.1 Overview Dashboard](#101-overview-dashboard)  
+    - [10.2 Medical Condition & Outcome Analysis](#102-medical-condition--outcome-analysis)  
+    - [10.3 Billing & Insurance Analysis](#103-billing--insurance-analysis)  
+    - [10.4 Doctor & Hospital Performance](#104-doctor--hospital-performance)  
+    - [10.5 Time-Based Analysis](#105-time-based-analysis)
+
 
 
 ## 📌 Project Overview <a name="1-project-overview"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;This project focuses on analyzing healthcare data to uncover key insights into patient admissions, medical conditions, treatment outcomes, and hospital performance. By combining Python for data preparation and cleaning with Power BI for interactive dashboards, the project aims to support healthcare administrators in making data-driven operational and clinical decisions.
 
-## 📌 Project Description
+## 📌 Project Description <a name="2-project-description"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;🩺 The Healthcare Data Analysis and Visualization Project involves working with a multi-sheet Excel dataset containing patient details, hospital information, doctor records, and patient visit data. The project workflow starts with merging and cleaning the data using Python libraries such as Pandas and NumPy in a Jupyter Notebook environment. Key data cleaning steps included handling missing values, standardizing text data, mapping admission type codes, calculating patient length of stay, and identifying high billing cases.
 
 After preparing a clean and integrated dataset, exploratory data analysis (EDA) was performed in Python to validate data distributions and detect anomalies. The prepared dataset was then visualized in Power BI, where a series of interactive dashboards were built to deliver actionable insights.
@@ -55,7 +61,7 @@ The dashboards created include:
 
 This project demonstrates how Python-based data engineering can seamlessly integrate with BI tools like Power BI to deliver healthcare insights that improve operational efficiency and patient care decisions.
 
-## 📌 Key Features
+## 📌 Key Features <a name="3-key-features"></a>
 - 📑 Merges multiple Excel sheets into a single clean dataset.
 
 - 🧹 Cleans and standardizes patient, doctor, and hospital details.
@@ -72,7 +78,7 @@ This project demonstrates how Python-based data engineering can seamlessly integ
 
 - 📈 Builds Power BI dashboards for dynamic visual insights.
 
-## 📌 Tools & Technologies
+## 📌 Tools & Technologies <a name="4-tools--technologies"></a>
 
 - Python
   - Pandas
@@ -84,7 +90,7 @@ This project demonstrates how Python-based data engineering can seamlessly integ
 - 📓 Jupyter Notebook
 - 📂 CSV & Excel Files (for data storage)
 
-## 📌 Project Folder Structure
+## 📌 Project Folder Structure <a name="5-project-folder-structure"></a>
 
 ├── 📁 Data/ # Healthcare Excel dataset files
 
@@ -116,7 +122,7 @@ This project demonstrates how Python-based data engineering can seamlessly integ
 
 ├── 📄 README.md # Project overview and documentation
 
-## 📌 Installation & Setup (One Block for Python + Power BI)
+## 📌 Installation & Setup (One Block for Python + Power BI) <a name="6-installation--setup"></a>
 
 #### 1️⃣ Clone the repository
 git clone [https://github.com/ChandrashekarDevarasetti/Visual-Healthcare-Insights-Python-EDA-Power-BI-Dashboards.git](https://github.com/ChandrashekarDevarasetti/Visual-Healthcare-Insights-Python-EDA-Power-BI-Dashboards)
@@ -133,7 +139,7 @@ jupyter notebook Python/HealthCare_EDA.ipynb
 #### Navigate to the 'PowerBI' folder and open 'HealthCare_Dashboard.pbix' in Power BI Desktop
 
 
-## 📌  How to Run (For both Python EDA + Power BI)
+## 📌  How to Run (For both Python EDA + Power BI) <a name="7-how-to-run"></a>
 
 ### Run Python EDA Notebook
 
@@ -175,5 +181,5 @@ jupyter notebook Python/HealthCare_EDA.ipynb
 
  &nbsp;&nbsp;&nbsp;&nbsp; If you need to refresh the data, connect to the Excel file located under the /data/ directory.
 
-## 📌 Detailed Overview of Healthcare_EDA in Python
+## 📌 Detailed Overview of Healthcare_EDA in Python <a name="8-detailed-overview-of-health_care_eda-in-python"></a>
 > Description of the Dataset
