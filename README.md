@@ -108,7 +108,7 @@ jupyter notebook Python/HealthCare_EDA.ipynb
 
 ## 📌  How to Run (For both Python EDA + Power BI)
 
-### Run Python EDA Notebook
+### - Run Python EDA Notebook
 
 #### 1️⃣ Install dependencies  
 Make sure you have all the necessary dependencies by running the following command:
@@ -123,7 +123,7 @@ jupyter notebook Python/HEALTHCARE_EDA.ipynb
 Once the notebook is open in your browser, execute all the cells to run the EDA analysis.
 
 
-### 📊 Open Power BI Dashboard
+### - 📊 Open Power BI Dashboard
 #### 1️⃣ Install Power BI Desktop
 If you haven't already, install Power BI Desktop. You can download it from here.
 
