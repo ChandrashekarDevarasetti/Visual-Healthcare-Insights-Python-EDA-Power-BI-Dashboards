@@ -378,7 +378,7 @@ Data Scientist | Enthusiast
 - 🌐 LinkedIn: [Chandra_LinkedIn](https://www.linkedin.com/in/chandra-shekar-devarasetti-8799b2222/)
 - 🌐 Portfolio: [Chandra_Portfolio](https://chandrashekardevarasetti.github.io/Chandra_Portfolio/)
 
-## 12. License <a name="12-License"></a> 
+## 12. License <a name="12-License"></a>
 
 This project is licensed under the [MIT License](LICENSE).
 
