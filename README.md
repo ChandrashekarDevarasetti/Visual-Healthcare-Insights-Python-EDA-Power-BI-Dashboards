@@ -49,13 +49,13 @@ This project demonstrates how Python-based data engineering can seamlessly integ
 ## 📌 Tools & Technologies
 - Python
 
- &nbsp;&nbsp;&nbsp; - Pandas
+&nbsp;&nbsp;&nbsp; - Pandas
 
- &nbsp;&nbsp;&nbsp; - NumPy
+&nbsp;&nbsp;&nbsp; - NumPy
 
- &nbsp;&nbsp;&nbsp; - Matplotlib
+&nbsp;&nbsp;&nbsp; - Matplotlib
 
- &nbsp;&nbsp;&nbsp; - Seaborn
+&nbsp;&nbsp;&nbsp; - Seaborn
 
 - Power BI
 
