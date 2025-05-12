@@ -269,7 +269,7 @@ Understand data distribution patterns and proportions.
 ### 📌 10. Detailed Overview of HealthCare Power BI Dashboard <a name="10-detailed-overview-of-power-bi-dashboard"></a>
 &nbsp;&nbsp;&nbsp;&nbsp; This comprehensive Power BI Healthcare Admissions & Billing Dashboard offers end-to-end insights into patient admissions, medical conditions, doctor performance, billing trends, and time-based activity. It includes interactive KPI cards, dynamic charts, matrix visuals, and drill-through pages for detailed patient-level analysis. The dashboard empowers stakeholders to monitor hospital operations, financial performance, and clinical outcomes effectively with slicers, bookmarks, and customized timelines for rich, interactive exploration.
 
-#### 10.1 🔍 Overview Dashboard <a name="101-overview-dashboard"></a>
+#### 🔍 10.1 Overview Dashboard <a name="101-overview-dashboard"></a>
 
 **What it does:**
 This dashboard provides a quick summary of hospital admissions, patient volumes, and financial performance.
@@ -289,7 +289,7 @@ Quickly monitor hospital activity, identify admission trends, and understand pat
 
 ![Overview_Dashboard](Images/Overview_Dashboard.png)
 
-#### 10.2 🏥 Medical Condition & Outcome Analysis <a name="102-medical-condition--outcome-analysis"></a>
+#### 🏥 10.2 Medical Condition & Outcome Analysis <a name="102-medical-condition--outcome-analysis"></a>
 
 **What it does:**
 This dashboard highlights patient counts by medical condition and their corresponding test outcomes.
@@ -307,7 +307,7 @@ Quickly identify which conditions are most common, how patients are performing i
 
 ![Medical_Condition](Images/Medical_Conditions_Dashboard.png)
 
-#### 10.3 💵 Billing & Insurance Analysis <a name="103-billing--insurance-analysis"></a>
+#### 💵 10.3 Billing & Insurance Analysis <a name="103-billing--insurance-analysis"></a>
 
 **What it does:**
 This dashboard tracks hospital billing patterns, insurance provider contributions, and cost relationships.
@@ -325,7 +325,7 @@ Easily monitor financial performance, identify top-paying insurers, and spot pat
 
 ![Billing_Insurance](Images/Billing_Insurance_Dashboard.png)
 
-#### 10.4 🧑‍⚕️ Doctor & Hospital Performance <a name="104-doctor--hospital-performance"></a>
+#### 🧑‍⚕️ 10.4 Doctor & Hospital Performance <a name="104-doctor--hospital-performance"></a>
 
 **What it does:**
 This dashboard evaluates doctor workload, patient outcomes, and hospital-wise admissions.
@@ -343,7 +343,7 @@ Identify high-performing doctors, hospital patient loads, and how test results v
 
 ![Doctor_Hospital](Images/Doctor_Hospital_Dashboard.png)
 
-#### 10.5 📅 Time-Based Analysis <a name="105-time-based-analysis"></a>
+#### 📅 10.5 Time-Based Analysis <a name="105-time-based-analysis"></a>
 
 **What it does:**
 This dashboard tracks patient admissions over time, helping spot trends and seasonal patterns.
